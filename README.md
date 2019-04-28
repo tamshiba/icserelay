@@ -13,9 +13,9 @@ As an example:
 (close channel 1, open channel 0)  
 ./icserelay.py ttyUSB0 -o 0 -c 1  
 (close all channels)  
-./icserelay.py ttyUSB0 -ao  
+./icserelay.py ttyUSB0 -ac  
 (open all channels)  
-./icserealy.py ttyUSB0 -ac
+./icserealy.py ttyUSB0 -ao
 
 I test this only in ICSE014A.  
 I am not confident of operation at 012A and 013A.
